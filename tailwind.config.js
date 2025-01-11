@@ -7,6 +7,9 @@ module.exports = {
       fontFamily: {
         mont: ['Montserrat', ...defaultTheme.fontFamily.sans], // Add Montserrat
       },
+      boxShadow: {
+        'bottom-only': '0 10px 0 rgba(0, 0, 0, 10)',
+      },
     },
   },
   plugins: [],
