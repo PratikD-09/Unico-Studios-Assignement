@@ -9,6 +9,7 @@ import c2SVG from '../../images/card2SVG.svg'
 import c3SVG from '../../images/card3SVG.svg'
 import card5img from '../../images/cardIMG.png' 
 import c4svg from '../../images/card4SVG.svg'
+import bgimg2 from '../../images/bgimg2.png'
 
 export default function Home() {
   return (
@@ -222,6 +223,61 @@ export default function Home() {
 
 
       </div>
+
+      <div>
+            <h2 className='text-[32px] mt-7 text-black font-semibold ml-40'>Pricing Plans</h2>
+            <p className='text-black text-[16px] font-light text-justify ml-40'>Tailored solutions to fit your business needs and budget.</p>
+
+      </div>
+      <div className=' flex m-9'>
+          <div className='border-2 border-black w-[380px] h-[690px] rounded-[20px] shadow-bottom-only ml-20'>
+                    <div className='flex w-80 h-[400px] m-7  flex-col  '>
+                        <h1 className=' flex justify-items-center justify-center h-[49px] text-[40px] font-semibold text-center mb-4'>₹17,999/m</h1>
+                        <div className='flex justify-items-center justify-center'>
+                        </div>
+
+                    <ul className=' list-disc list-inside'>
+                      <li className='mt-5'>8 Posts + 4 Stories/m</li>
+                      <li className='mt-5'>SMM (2 Platforms)</li>
+                      <li className='mt-5'>Basic SEO Optimization</li>
+                    </ul>
+                    <button className='flex items-center justify-center border relative bottom-[-400px] border-black w-[201px] h-[47px] rounded-full bg-white  translate-x-1 '><p className='m-2'>I Like This</p> <img src={viewmore} alt="" /></button>
+                    </div>
+            </div>
+
+
+
+            <div className='border-2 border-black w-[380px] h-[690px] rounded-[20px] shadow-bottom-only ml-20'>
+                    <div className='flex w-80 h-[400px] m-7  flex-col  '>
+                        <h1 className=' flex justify-items-center justify-center h-[49px] text-[40px] font-semibold text-center mb-4'>₹27,999/m</h1>
+                        <div className='flex justify-items-center justify-center'>
+                        </div>
+
+                    <ul className=' list-disc list-outside '>
+                      <li className='mt-5'>SMM (4 platforms).</li>
+                      <li className='mt-5'>12 Posts + 8 Stories/m</li>
+                      <li className='mt-5 '>Advanced SMM Strategy with Analytics</li>
+                      <li className='mt-5'>Advanced SEO + Analytics</li>
+                      <li className='mt-5'>Ad Campaign Setup</li>
+                    </ul>
+                    <button className='flex items-center justify-center relative bottom-[-300px] border border-black w-[201px] h-[47px] rounded-full bg-white  translate-x-1 '><p className='m-2'>I Like This</p> <img src={viewmore} alt="" /></button>
+                    </div>
+            </div>
+
+            <div className='border-2 border-black w-[380px] h-[690px] rounded-[20px] shadow-bottom-only ml-20'>
+                    <div className='flex w-80 h-[400px] m-7  flex-col  '>
+                        <h1 className=' flex justify-items-center justify-center h-[49px] text-[30px] font-semibold text-center mb-4'>Tailored for You</h1>
+                        <div className='flex justify-items-center justify-center'>
+                        </div>
+
+                    <p className='pt-96'>A personalized solution to fit your unique business needs. Contact us for a custom quote.</p>
+                    <button className='flex items-center justify-center border relative bottom-[-60px] border-black w-[201px] h-[47px] rounded-full bg-white  translate-x-1 '><p className='m-2'>Schedule A Call</p> <img src={viewmore} alt="" /></button>
+                    </div>
+            </div>
+          
+      </div>
+
+      <div className='h-[438px] bg-[#2B2B2B] rounded-[40px]'></div>
 
           
     </div>
