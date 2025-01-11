@@ -7,6 +7,7 @@ import bgimg from '../../images/bgimg.png'
 import c1SVG from '../../images/card1SVG.svg'
 import c2SVG from '../../images/card2SVG.svg'
 import c3SVG from '../../images/card3SVG.svg'
+import card5img from '../../images/cardIMG.png' 
 import c4svg from '../../images/card4SVG.svg'
 
 export default function Home() {
@@ -170,6 +171,56 @@ export default function Home() {
 
             </div>
         </div>
+      </div>
+
+
+
+
+      <div className='h-[600px] bg-[#2B2B2B] mt-[120px] rounded-[50px] '>
+        <div className='flex gap-[50vw]'>
+          <h1 className='text-white text-[48px] m-10'>Our Work</h1>
+          <button className='flex items-center justify-center w-[275px] h-[47px] rounded-full bg-white m-10 text-[19px] translate-x-1 '>Explore more of our work</button>
+        </div>
+        <div className='flex '>
+          <div className='w-[25vw] h-96  ml-20'>
+            <div>
+              <img src= {img1Lap} alt="" />
+            </div>
+            <h2 className='text-[32px] mt-7 text-white'>Haze Productions</h2>
+            <div >
+              <span className='text-[16px]  text-white'>Web Design</span>
+              <span className='text-[16px] ml-3 text-white'>Web Development</span>
+              <span className='text-[16px] ml-3 text-white'>SMM</span>
+            </div>
+          </div>
+
+          <div className='w-[25vw] h-96  ml-20'>
+            <div>
+              <img src= {card5img} alt="" />
+            </div>
+            <h2 className='text-[32px] mt-7 text-white'>Haze Productions</h2>
+            <div >
+              <span className='text-[16px]  text-white'>Web Design</span>
+              <span className='text-[16px] ml-3 text-white'>Web Development</span>
+              <span className='text-[16px] ml-3 text-white'>SMM</span>
+            </div>
+          </div>
+
+          <div className='w-[25vw] h-96  ml-20'>
+            <div>
+              <img src= {img2lap} alt="" />
+            </div>
+            <h2 className='text-[32px] mt-7 text-white'>Haze Productions</h2>
+            <div >
+              <span className='text-[16px]  text-white'>Web Design</span>
+              <span className='text-[16px] ml-3 text-white'>Web Development</span>
+              <span className='text-[16px] ml-3 text-white'>SMM</span>
+            </div>
+          </div>
+          
+        </div>
+
+
       </div>
 
           
